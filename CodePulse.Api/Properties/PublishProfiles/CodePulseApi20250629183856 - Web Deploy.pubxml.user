@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <History>True|2025-06-29T14:12:51.2520822Z||;False|2025-06-29T19:39:29.0477415+05:30||;True|2025-06-29T18:44:19.6805407+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SqlServerConnectionString">
+      <Value>Server=tcp:sandeepazuresqlserver.database.windows.net,1433%3bInitial Catalog=sandeeplearningdatabase%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=sanch%401986b%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=True%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CodePulse.Api.Data.ApplicationDbContext">
+      <Value>Server=tcp:sandeepazuresqlserver.database.windows.net,1433%3bInitial Catalog=sandeeplearningdatabase%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=sanch%401986b%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=True%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+    <EFMigrations Include="CodePulse.Api.Data.AuthDbContext">
+      <Value>Server=tcp:sandeepazuresqlserver.database.windows.net,1433%3bInitial Catalog=sandeeplearningdatabase%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=sanch%401986b%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=True%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
