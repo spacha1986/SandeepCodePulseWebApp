@@ -33,6 +33,7 @@ namespace CodePulse.Api.Controllers
         }
 
 
+// Get Method
         [HttpGet]
         // GET: /api/<controller>/
         public async Task<IActionResult> GetAllBlogPosts()
